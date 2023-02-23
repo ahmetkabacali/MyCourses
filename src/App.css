@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 1rem auto;
+}
+.loading {
+  font-size: 4rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  border: none;
+  padding: 0.9rem;
+  border-radius: 2rem;
+  width: 40%;
+}
+.btn-delete {
+  color: #f2f2f2;
+  background-color: blueviolet;
+  margin-top: auto;
+}
+.btn-reset {
+  justify-self: center;
+  display: block;
+  width: 300px;
+  margin: 1rem auto;
+}
+.reset-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.reset-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+}
+.task-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.task {
+  height: 500px;
+  min-width: 420px;
+  background-color: #f2f2f2;
+  border-radius: 1rem;
+  padding: 2rem;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.task-price {
+  font-style: italic;
+  color: red;
+  margin: auto 0;
+}
